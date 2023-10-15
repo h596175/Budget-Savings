@@ -13,7 +13,14 @@
 > 4. Navigate to the URL: "http://localhost:8080/h2-console", login with the username: "sa" (No password required) (jdbc url: jdbc:h2:mem:bank)
 > 5. Double check that the tables have been seeded properly with the provided data by sending the queries: "SELECT * FROM ACCOUNT" and "SELECT * FROM TRANSACTION".
 > 6. From here you can import my attached postman collection and start sending requests.
-> 7. It is recommended that you send the "CreateGoal" request early on since the database has not been seeded with prior data regarding goals.
+> 7. It is recommended that you send the "CreateGoal" request early on since the database has not been seeded with prior goal data.
 
 ## Comments
-Comments regaring design choices, decisions, or anything at all.
+First off i decided to make this a Spring boot project as it is something im already familiar with, and also because https://start.spring.io/ makes the startup process easy.
+Then i made a H2 database to avoid (hopefully) any conflicts regarding the database, as it is an in memory and persistent relational database.
+Mid development i made the decision to forgo the frontend of the application, and rather focus on the foundation which it could later be built upon.
+
+
+## Suggestions for improvement
+- Make the program more robust: Create actual tests for testing the program, as most of the testing was done through postman/console.
+- 
