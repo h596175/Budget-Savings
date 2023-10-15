@@ -23,4 +23,8 @@ Mid development i made the decision to forgo the frontend of the application, an
 
 ## Suggestions for improvement
 - Make the program more robust: Create actual tests for testing the program, as most of the testing was done through postman/console.
-- 
+- Apply more constraints: To what a user can or cannot do in terms of methods/requests they have at their disposal. Try to restrict them through both backend and frontend.
+- Make use of HATEOAS: For ease of use.
+- Frontend: Create a functioning frontend to compelete the project
+- Support for different currencies: EUR, USD etc.
+- Better reward system: Split the "road" to the goal into to multiple milestones. So instead of having 1 milestone set by the user you could instead make one at 150%, 200%, 250% of the savings account current balance. I would also change the flat +100 NOK gain when a milestone is reached into a point system instead. Where the owner would gain different benefits at depending on what sum of points they have.
