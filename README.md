@@ -1,8 +1,7 @@
 # Budget-Savings
 
 ## Task description
-> I decided to focus mainly on backend with the goal of: "To help us and the banks to make this financial product more fun and incentivizing for the customer to save their money" in mind.
-> 
+> Budget-saving is a backend oriented solution to the stacc-challenge. It stores the provided data into a on-memory h2 database, where the user can then query with requests from postman to recieve data. Most CRUD operations should be implemented and should give a good baseline to add on in later stages.
 
 
 ## How to run
@@ -35,4 +34,5 @@ When both of these conditions are met, the account is then rewarded +100 NOK and
 - Frontend: Create a functioning frontend to compelete the project
 - Support for different currencies: EUR, USD etc.
 - Better reward system: Split the "road" to the goal into to multiple milestones. So instead of having 1 milestone set by the user you could instead make one at 150%, 200%, 250% of the savings account current balance. I would also change the flat +100 NOK gain when a milestone is reached into a point system instead. Where the owner of the account would gain different benefits depending on what sum of points they have.
-- Changing the database: Make use Microsoft Azure to host a database instead of letting it run locally.
+- Changing the database: Make use of Microsoft Azure to host a database instead of letting it run locally.
+- Secureity: For example, add disarming techniques to avoid the user putting in harmful inputs in their request to avoid injection attacks.
