@@ -1,11 +1,10 @@
 # Budget-Savings
 
 ## Task description
-Here you can describe what tasks you decided to solve.
-> Please provide a short description of your project.
+With the goal of making saving fun in mind, i decided to make the foundation/backend that would be able to support such a system. 
+
 
 ## How to run
-For example ***yarn start***
 > Remember to package all dependencies!
 
 ## Comments
