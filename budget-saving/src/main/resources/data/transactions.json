@@ -1,0 +1,68 @@
+{
+  "transactions": [
+    {
+      "id": "",
+      "date": "2023-08-15",
+      "description": "Grocery Store",
+      "amount": -75.5,
+      "currency": "NOK",
+      "account": "acc123"
+    },
+    {
+      "id": "",
+      "date": "2023-08-14",
+      "description": "Paycheck Deposit",
+      "amount": 2500.0,
+      "currency": "NOK",
+      "account": "acc123"
+    },
+    {
+      "id": "",
+      "date": "2023-08-15",
+      "description": "Online Shopping",
+      "amount": -320.25,
+      "currency": "NOK",
+      "account": "acc456"
+    },
+    {
+      "id": "",
+      "date": "2023-08-14",
+      "description": "Interest Earnings",
+      "amount": 50.25,
+      "currency": "NOK",
+      "account": "acc456"
+    },
+    {
+      "id": "",
+      "date": "2023-08-15",
+      "description": "Rent Payment",
+      "amount": -1000.0,
+      "currency": "NOK",
+      "account": "acc789"
+    },
+    {
+      "id": "",
+      "date": "2023-08-14",
+      "description": "Savings Deposit",
+      "amount": 1500.0,
+      "currency": "NOK",
+      "account": "acc789"
+    },
+    {
+      "id": "",
+      "date": "2023-08-15",
+      "description": "Lunch Out",
+      "amount": -45.75,
+      "currency": "NOK",
+      "account": "acc012"
+    },
+    {
+      "id": "",
+      "date": "2023-08-14",
+      "description": "Savings Deposit",
+      "amount": 1000.0,
+      "currency": "NOK",
+      "account": "acc012"
+    }
+  ]
+}
