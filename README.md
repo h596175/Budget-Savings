@@ -22,11 +22,10 @@ Mid development i made the decision to forgo the frontend of the application, an
 So far i would say that this application is much more a proof of concept, as some things like the reward system could definitely be more fleshed out.
 
 Postman Request Explaination:
--RewardAccount will send a post request to: "/accounts/rewards/acc456" where the last field is the id of an account. A reward of +100 NOK is handed out when the following conditions are met:
-A. The account that is rewarded must have the account type: "Savings"
-B. The saving goal that is set must have it's reachedGoal boolean set to false.
-
-When both of these conditions are met, the account is then rewarded +100 NOK and the reachGoal boolean is set to true. To avoid repeated requests that would result in "duplicated" rewards.
+- RewardAccount will send a post request to: "/accounts/rewards/acc456" where the last field is the id of an account. A reward of +100 NOK is handed out when the following conditions are met:
+- A. The account that is rewarded must have the account type: "Savings"
+- B. The saving goal that is set must have it's reachedGoal boolean set to false.
+- When both of these conditions are met, the account is then rewarded +100 NOK and the reachGoal boolean is set to true. To avoid repeated requests that would result in "duplicated" rewards.
 
 ## Suggestions for improvement
 - Make the program more robust: Create actual tests for testing the program, as most of the testing was done through postman/console.
